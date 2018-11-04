@@ -35,10 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
             if (mCount % 2 == 0) {  // If mCount is even
                 isNotZero.setBackgroundColor(Color.CYAN);
+                isNotZero.setTextColor(Color.BLACK);
             }
 
             else {                  // if mCount is odd
                 isNotZero.setBackgroundColor(Color.RED);
+                isNotZero.setTextColor(Color.WHITE);
             }
         }
     }
