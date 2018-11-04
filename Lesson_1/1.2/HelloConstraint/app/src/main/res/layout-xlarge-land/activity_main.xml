@@ -63,6 +63,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="100dp"
         android:background="@android:color/darker_gray"
+        android:onClick="setToZero"
         android:text="@string/button_label_zero"
         android:textColor="@android:color/white"
         android:textSize="60sp"

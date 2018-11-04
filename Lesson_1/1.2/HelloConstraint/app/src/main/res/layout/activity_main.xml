@@ -65,6 +65,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/darker_gray"
+        android:onClick="setToZero"
         android:text="@string/button_label_zero"
         android:textAllCaps="true"
         android:textColor="@android:color/white" />
