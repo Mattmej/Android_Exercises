@@ -32,7 +32,14 @@ public class MainActivity extends AppCompatActivity {
         if (mShowCount != null) {
             mShowCount.setText(Integer.toString(mCount));
             isNotZero = (Button) findViewById(R.id.button_zero);
-            isNotZero.setBackgroundColor(Color.RED);
+
+            if (mCount % 2 == 0) {  // If mCount is even
+                isNotZero.setBackgroundColor(Color.CYAN);
+            }
+
+            else {                  // if mCount is odd
+                isNotZero.setBackgroundColor(Color.RED);
+            }
         }
     }
 
