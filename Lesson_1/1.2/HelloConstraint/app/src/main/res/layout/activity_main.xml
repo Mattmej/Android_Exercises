@@ -14,6 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
         android:onClick="showToast"
         android:text="@string/button_label_toast"
@@ -35,8 +36,6 @@
         android:textColor="@color/colorPrimary"
         android:textSize="160sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintVertical_bias="1.0"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/button_toast"/>
@@ -46,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dpdp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:layout_below="@id/button_zero"
@@ -59,12 +58,16 @@
         android:id="@+id/button_zero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/button_toast"
         android:layout_alignParentStart="true"
         android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
         android:text="@string/button_label_zero"
-        android:layout_below="@id/button_toast"/>
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
 
 
 </RelativeLayout>
