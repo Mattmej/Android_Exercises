@@ -49,5 +49,6 @@ public class MainActivity extends AppCompatActivity {
         mCount = 0;
         mShowCount.setText(Integer.toString(mCount));
         isNotZero.setBackgroundColor(Color.DKGRAY);
+        isNotZero.setTextColor(Color.WHITE);
     }
 }
